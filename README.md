@@ -1,2 +1,2 @@
 # personal_site
-[link](http://www.zackedwards.games)
+[Link to the site!](http://www.zackedwards.games)
