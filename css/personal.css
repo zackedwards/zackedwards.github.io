@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {text-align: center}
 
 ul {
@@ -46,3 +47,25 @@ h2 {
   color: rgb(255, 255, 255, 0.8);
   text-shadow: -2px -3px blue;
 }
+=======
+body {text-align: center}
+a {
+  background-image: linear-gradient(#D51C2C, #FCDE03, #018A2D);
+  font-size: 75px
+}
+.grad {
+    background: linear-gradient(180deg, #31b7c4, #9217e8);
+    background-size: 400% 400%;
+    animation: AnimationName 10s ease-in-out infinite;
+}
+
+@keyframes AnimationName {
+    0%{background-position:50% 0%}
+    50%{background-position:50% 75%}
+    100%{background-position:50% 0%}
+}
+
+p{
+  font-size: 75px
+}
+>>>>>>> 4227728c631583595717d8dc57bcd8e1210a1858
