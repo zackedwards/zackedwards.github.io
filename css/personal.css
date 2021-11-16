@@ -1,0 +1,48 @@
+body {text-align: center}
+
+ul {
+  left: 20px;
+
+}
+a {
+  text-transform: uppercase;
+  font-size: xx-large;
+  font-family: 'Catamaran', sans-serif;
+  color: rgb(255, 255, 255, 0.8);
+  text-shadow: -2px -3px blue;
+  /* background-image: linear-gradient(#D51C2C, #FCDE03, #018A2D); */
+  font-size: 75px
+}
+
+.grad {
+    background: linear-gradient(180deg, #31b7c4, #9217e8);
+    background-size: 400% 400%;
+    animation: AnimationName 10s ease-in-out infinite;
+}
+
+@keyframes AnimationName {
+    0%{background-position:50% 0%}
+    50%{background-position:50% 75%}
+    100%{background-position:50% 0%}
+}
+
+p{
+  font-size: 75px
+}
+
+
+h1 {
+  text-transform: uppercase;
+  font-size: xx-large;
+  font-family: 'Catamaran', sans-serif;
+  color: rgb(255, 255, 255, 0.8);
+  text-shadow: -2px -3px blue;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-size: x-large;
+  font-family: 'Catamaran', sans-serif;
+  color: rgb(255, 255, 255, 0.8);
+  text-shadow: -2px -3px blue;
+}
