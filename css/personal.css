@@ -20,12 +20,12 @@ a {
     100%{background-position:50% 0%}
 }
 
-.linkedin {
+/* .linkedin {
   position: relative;
   bottom: 0;
   right: 57%;
   left: 43%;
-}
+} */
 
 p{
   font-size: 75px
