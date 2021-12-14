@@ -1,5 +1,26 @@
 body {text-align: center}
 
+.navOption {
+  text-transform: uppercase;
+  font-size: 40px;
+  font-family: 'Catamaran', sans-serif;
+  color: blue;
+  text-shadow: none;
+  /* background-image: linear-gradient(#D51C2C, #FCDE03, #018A2D); */
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.navbar{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+}
+
 a {
   text-transform: uppercase;
   font-size: 60px;
@@ -18,6 +39,23 @@ a {
     0%{background-position:50% 0%}
     50%{background-position:50% 75%}
     100%{background-position:50% 0%}
+}
+
+/* horizontal navigation bar */
+.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+
+
+
+.navitem{
+  display: inline-block;
+  padding: 10px;
+  left: 10px;
+  float: left;
 }
 
 /* .linkedin {
